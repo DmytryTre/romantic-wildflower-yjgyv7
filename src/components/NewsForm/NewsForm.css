@@ -1,0 +1,28 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid;
+  background-color: #c0c0c0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  grid-gap: 10px;
+}
+
+.text {
+  height: 200px;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #32cd32;
+}

@@ -1,0 +1,17 @@
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 500px;
+  border: 1px solid;
+}
+
+.buttonDel {
+  background-color: #ff0000;
+}
+
+@media (max-width: 500px) {
+  .itemContainer {
+    width: 100%;
+  }
+}
